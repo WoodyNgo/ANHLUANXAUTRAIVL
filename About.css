@@ -1,0 +1,420 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ok{
+    width: 100%;
+    height: 630px;
+    background-image: url("https://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phantu{
+    margin:0 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.phantu:hover{
+    cursor: pointer;
+    color: rgb(196, 192, 192);
+}
+.phantu:last-child{
+    border: 3px solid white;
+    border-radius: 1%;  
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+}
+.phantu:last-child:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.lammau{
+    display: block;
+    font-size: 30px;
+    padding-left: 73px;
+    font-size: 40px;
+    padding-top: 60px;
+}
+.aoma{
+    font-size: 90px;
+}
+.mo{
+    padding-top: 15px;
+    font-size: 90px;
+}
+.damme{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.curiosity{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 280px;
+    padding-bottom: 100px;
+}
+.giaithich{
+    color: black;
+    font-size: 35px;
+}
+.quatroilogo{
+    padding-bottom: 100px;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 280px;
+    background-color: rgba(228, 228, 228, 0.904);
+}
+.logos{
+    width: 74%;
+    height: 1000px;
+}
+.partner{
+    padding-top: 100px;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;
+}
+.partners{
+    color: grey;
+}
+.seek{
+    padding-top: 50px;
+    color: black;
+    font-size: 35px;
+}
+.clients{
+    color: black;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.daugach{
+    font-size: 50px;
+    color: black;
+}
+.in4{
+    color: grey;
+    padding-top: 80px;
+    font-size: 19px;
+}
+.project{
+    padding-top: 120px;
+    padding-left: 360px;
+}
+.all{
+    color: black ;
+    border: 2px solid black;
+    border-radius: 1%;
+    align-items: center;
+    font-size: 15px;
+    padding: 12px;
+}
+.all:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.in3{
+    color: grey;
+    padding-top: 80px;
+    font-size: 20px;
+}
+.anhdau{
+    width: 100%;
+    height: 600px;
+    padding-top: 120px;
+}
+.sach{
+    width: 100%;
+    height: 420px;
+}
+.haicot{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.noi{
+    flex: 1;
+    height: 390px;
+}
+.bao{
+    flex: 1;
+    height: 417px;
+}
+.ten{
+    width: 590px;
+    height: 390px;
+}
+.cuoi{
+    width: 590px;
+    height: 417px;
+}
+.doer{
+    padding-top: 120px;
+    color: grey;
+}
+.bonanh{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 515px;
+    margin: 0 auto;
+}
+.cot1{
+    flex: 1;
+    padding-left: 5px;
+}
+.lamviec{
+    width: 300px;
+    height: 300px;
+}
+.tieude{
+    color: black;
+    font-size: 40px;
+}
+.kicang{
+    width: 300px;
+    color: black;
+    font-size: 20px;
+}
+.tieude1{
+    color: black;
+    font-size: 33px;
+}
+.part{
+    padding-top: 100px;
+    color: grey;
+}
+.muoianh{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+    height: 1550px;
+    padding-top: 70px;
+    font-size: 0;
+}
+.cotdau{
+    flex: 1;
+}
+.hang1{
+    display: flex;
+    flex-direction: row;
+}
+.hang4{
+    display: flex;
+    flex-direction: row;
+}
+.hang7{
+    display: flex;
+    flex-direction: row;
+}
+.a1{
+    height: 160px;
+    width: 157px;
+}
+.a3{
+    height: 160px;
+    width: 314px;
+}
+.a4{
+    height: 160px;
+    width: 314px;
+}
+.a5{
+    height: 160px;
+    width: 157px;
+}
+.a7{
+    height: 160px;
+    width: 314px;
+}
+.a8{
+    height: 160px;
+    width: 314px;
+}
+.a9{
+    height: 160px;
+    width: 157px;
+}
+.cotsau{
+    padding-left: 50px;
+}
+.a11{
+    height: 210px;
+    width: 390px;
+}
+.a12{
+    width: 390px;
+    height: 410px;
+}
+.a13{
+    width: 390px;
+}
+.a14{
+    width: 390px;
+    height: 400px;
+}
+.a15{
+    width: 390px;
+}
+.ending{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.email{
+    padding: 5px 10px;
+    color: black;
+}
+.sc{
+    width: 120px;
+}
+.fc{
+    width: 180px;
+}
+.des{
+    font-size: 17px;
+    color: grey;
+    width: 150px;
+}
+.des1{
+    font-size: 17px;
+    color: grey;
+    width: 54px; 
+}
+.rorang{
+    padding-top: 20px;
+    padding-right: 400px;
+}
+.com{
+    color: grey;
+}
+.com:hover{
+    cursor: pointer;
+    color: white;
+}
+.dienvao{
+    width: 305px;
+}
+.sign{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.signup{
+    border: 3px solid white;
+    padding: 19px;
+    background-color: black;
+}
+.signup:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.cuoicung{
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.f1{
+    width: 80px;
+    height: 50px;
+}
+.b1{
+    width: 40px;
+    height: 50px;
+}
+.il1{
+    width: 40px;
+    height: 50px;
+}
+.vi1{
+    width: 40px;
+    height: 50px;
+}
+.tt1{
+    width: 40px;
+    height: 50px;
+}
+.mail1{
+    width: 40px;
+    height: 50px;
+}
+.pp{
+    background-color: black;
+    padding-bottom: 80px;
+    height: 50px;
+    padding-left: 45px;
+}
+.privacy{
+    color: grey;
+    width: 130px ;
+}
+.privacy:hover{
+    color: white;
+    cursor: pointer;
+}
+.return > .img{
+    color: black;
+}
+.arrow{
+    padding-left: 600px;
+    height: 40px;
+}
+.chu{
+    color: grey;
+    padding-left: 550px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ok{
+    width: 100%;
+    height: 630px;
+    background-image: url("https://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phantu{
+    margin:0 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.phantu:hover{
+    cursor: pointer;
+    color: rgb(196, 192, 192);
+}
+.phantu:last-child{
+    border: 3px solid white;
+    border-radius: 1%;  
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+}
+.phantu:last-child:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.lammau{
+    display: block;
+    font-size: 30px;
+    padding-left: 73px;
+}
+.mota{
+    height: 440px;
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 155px;
+    padding-bottom: 155px;
+    font-size: 30px;    
+    background-color: lightgray;
+}
+.chu{
+    color: black;
+}
+.hinhanh:hover{
+    cursor: pointer;
+}
+.hinhanh{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+}
+.c1{
+    flex: 1;
+    height: 400px;
+}
+.c2{
+    flex: 1;
+    height: 400px;
+}
+.c3{
+    flex: 1;
+    height: 400px;
+}
+.button{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.view{
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 3px solid #000;
+    width: 170px;
+    padding: 10px;
+}
+.view:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.pic{
+    position: relative;
+    width: 100%;
+}
+.overlayer{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a ;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.d1{
+    width: 73%;
+}
+.d2{
+    width: 69%;
+}
+.d3{
+    width:40%;
+}
+.pic:hover > .overlayer{
+    display: flex;
+}
+.lastanh{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+}
+.p1{
+    flex: 1;
+    width: 239px;
+}
+.p2{
+    flex: 1;
+    width: 239px;
+}
+.p3{
+    flex: 1;
+    width: 239px;
+}
+.p4{
+    flex: 1;
+    width: 239px;
+}
+.p5{
+    flex: 1;
+    width: 239px;
+}
+.ig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.fl{
+    color: black;
+    border: 3px solid #000;
+    padding: 14px;
+    font-size: 13px;
+}
+.fl:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+}
+.ending{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.email{
+    padding: 5px 10px;
+    color: black;
+}
+.sc{
+    width: 120px;
+}
+.fc{
+    width: 180px;
+}
+.des{
+    font-size: 17px;
+    color: grey;
+    width: 150px;
+    padding-top: 10px;
+}
+.des1{
+    font-size: 17px;
+    color: grey;
+    width: 54px; 
+    line-height: 25px;
+}
+.rorang{
+    padding-top: 20px;
+    padding-right: 400px;
+}
+.com{
+    color: grey;
+    line-height: 25px;
+}
+.com:hover{
+    cursor: pointer;
+    color: white;
+}
+.dienvao{
+    width: 305px;
+}
+.sign{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.signup{
+    border: 3px solid white;
+    padding: 19px;
+    background-color: black;
+}
+.signup:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.cuoicung{
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.f1{
+    width: 80px;
+    height: 50px;
+}
+.b1{
+    width: 40px;
+    height: 50px;
+}
+.il1{
+    width: 40px;
+    height: 50px;
+}
+.vi1{
+    width: 40px;
+    height: 50px;
+}
+.tt1{
+    width: 40px;
+    height: 50px;
+}
+.mail1{
+    width: 40px;
+    height: 50px;
+}
+.pp{
+    background-color: black;
+    padding-bottom: 80px;
+    height: 50px;
+    padding-left: 45px;
+}
+.privacy{
+    color: grey;
+    width: 130px ;
+}
+.privacy:hover{
+    color: white;
+    cursor: pointer;
+}

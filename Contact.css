@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ok{
+    width: 100%;
+    height: 630px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/56cf664060b5e968036e98c3/1486663289788-VCXXV7BXQ88XIHF9A88B/MNML_IDSA2013-23.jpg?format=500w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phantu{
+    margin:0 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.phantu:hover{
+    cursor: pointer;
+    color: rgb(196, 192, 192);
+}
+.phantu:last-child{
+    border: 3px solid white;
+    border-radius: 1%;  
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+}
+.phantu:last-child:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.lammau{
+    display: block;
+    font-size: 30px;
+    padding-left: 73px;
+    padding-top: 190px;
+}
+.diachi{
+    display: flex;
+    flex-direction: column;
+    padding-left: 105px;
+    padding-bottom: 200px;
+}
+.ten{
+    color: black;
+    font-size: 30px;
+}
+.sdt{
+    width: 100px;
+    display: block;
+    color: black;
+    padding-top: 20px;
+}
+.general{
+    color: grey;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.mailcom{
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.matt{
+    color: grey;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.visit{
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.ending{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.email{
+    color: black;
+    padding: 5px 20px;
+}
+.sc{
+    width: 120px;
+}
+.fc{
+    width: 180px;
+}
+.des{
+    font-size: 17px;
+    color: grey;
+    width: 150px;
+}
+.des1{
+    font-size: 17px;
+    color: grey;
+    width: 54px; 
+}
+.rorang{
+    padding-top: 20px;
+    padding-right: 400px;
+}
+.com{
+    color: grey;
+}
+.com:hover{
+    cursor: pointer;
+    color: white;
+}
+.dienvao{
+    width: 305px;
+}
+.sign{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.signup{
+    border: 3px solid white;
+    padding: 19px;
+    background-color: black;
+}
+.signup:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.cuoicung{
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.f1{
+    width: 80px;
+    height: 50px;
+}
+.b1{
+    width: 40px;
+    height: 50px;
+}
+.il1{
+    width: 40px;
+    height: 50px;
+}
+.vi1{
+    width: 40px;
+    height: 50px;
+}
+.tt1{
+    width: 40px;
+    height: 50px;
+}
+.mail1{
+    width: 40px;
+    height: 50px;
+}
+.pp{
+    background-color: black;
+    padding-bottom: 80px;
+    height: 50px;
+    padding-left: 45px;
+}
+.privacy{
+    color: grey;
+    width: 130px ;
+}
+.privacy:hover{
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ok{
+    width: 100%;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/56cf664060b5e968036e98c3/1486663461564-JRU2XSX7L8IQ2GBSS2TJ/_MG_7450-Edit_crop.jpg?format=2500w");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 600px;
+}   
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phantu{
+    margin:0 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.phantu:hover{
+    cursor: pointer;
+    color: rgb(196, 192, 192);
+}
+.phantu:last-child{
+    border: 3px solid white;
+    border-radius: 1%;  
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+}
+.phantu:last-child:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.lammau{
+    display: block;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 73px;
+}
+.on{
+    padding-top: 30px;
+}
+.gach{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 790px;
+    font-size: 20px;
+}
+.all{
+    color: grey;
+}
+.all:hover{
+    color: black;
+    cursor: pointer;
+}
+.tech{
+    color: grey;
+}
+.tech:hover{
+    color: black;
+    cursor: pointer;
+}
+.furniture{
+    color: grey;
+}
+.furniture:hover{
+    color: black;
+    cursor: pointer;
+}
+.housewares{
+    color: grey;
+}
+.housewares:hover{
+    color: black;
+    cursor: pointer;
+}
+.medical{
+    color: grey;
+}
+.medical:hover{
+    color: black;
+    cursor: pointer;
+}
+.lifestyle{
+    color: grey;
+}
+.lifestyle:hover{
+    color: black;
+    cursor: pointer;
+}
+.digital{
+    color: grey;
+}
+.digital:hover{
+    color: black;
+    cursor: pointer;
+}
+.branding{
+    color: grey;
+}
+.branding:hover{
+    color: black;
+    cursor: pointer;    
+}
+.transportation{
+    color: grey;
+}
+.transportation:hover{
+    color: black;
+    cursor: pointer;
+}
+.environment{
+    color: grey;
+}
+.environment:hover{
+    color: black;
+    cursor: pointer;
+}
+.protection{
+    color: grey;
+}
+.protection:hover{
+    color: black;
+    cursor: pointer;
+}
+.incubation{
+    color: grey;
+}
+.incubation:hover{
+    color: black;
+    cursor: pointer;
+}
+.motion{
+    color: grey;
+}
+.motion:hover{
+    color: black;
+    cursor: pointer;
+}
+.selection{
+    padding-left: 10px;
+    width: 87%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.selection2{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 44%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.hinhanh:hover{
+    cursor: pointer;
+}
+.hinhanh{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.pic{
+    position: relative;
+    width: 100%;
+}
+.overlayer{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a ;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pic:hover > .overlayer{
+    display: flex;
+}
+.c1{
+    flex: 1;
+    height: 400px;
+}
+.c2{
+    flex: 1;
+    height: 400px;
+}
+.c3{
+    flex: 1;
+    height: 400px;
+}
+.c21{
+flex: 1;
+height: 400px;
+}
+.ending{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.email{
+    color: black;
+    padding: 5px 10px;
+}
+.sc{
+    width: 120px;
+}
+.fc{
+    width: 180px;
+}
+.des{
+    font-size: 17px;
+    color: grey;
+    width: 150px;
+}
+.des1{
+    font-size: 17px;
+    color: grey;
+    width: 54px; 
+}
+.rorang{
+    padding-top: 20px;
+    padding-right: 400px;
+}
+.com{
+    color: grey;
+}
+.com:hover{
+    cursor: pointer;
+    color: white;
+}
+.dienvao{
+    width: 305px;
+}
+.sign{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.signup{
+    border: 3px solid white;
+    padding: 19px;
+    background-color: black;
+}
+.signup:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.cuoicung{
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.f1{
+    width: 80px;
+    height: 50px;
+}
+.b1{
+    width: 40px;
+    height: 50px;
+}
+.il1{
+    width: 40px;
+    height: 50px;
+}
+.vi1{
+    width: 40px;
+    height: 50px;
+}
+.tt1{
+    width: 40px;
+    height: 50px;
+}
+.mail1{
+    width: 40px;
+    height: 50px;
+}
+.pp{
+    background-color: black;
+    padding-bottom: 80px;
+    height: 50px;
+    padding-left: 45px;
+}
+.privacy{
+    color: grey;
+    width: 130px ;
+}
+.privacy:hover{
+    color: white;
+    cursor: pointer;
+}

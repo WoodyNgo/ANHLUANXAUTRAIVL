@@ -1,0 +1,482 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ok{
+    width: 100%;
+    height: 630px;
+    background-image: url("https://www.howtogeek.com/wp-content/uploads/2012/12/Plain-Black-Wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 600px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.phantu{
+    margin:0 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.phantu:hover{
+    cursor: pointer;
+    color: rgb(196, 192, 192);
+}
+.phantu:last-child{
+    border: 3px solid white;
+    border-radius: 1%;  
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+}
+.phantu:last-child:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.lammau{
+    display: block;
+    font-size: 30px;
+    padding-left: 73px;
+}
+.tren{
+    font-size: 65px;
+    padding-top: 20px;
+}
+.on{
+    font-size: 65px;
+    padding-top: 20px;
+}
+.lam{
+    font-size: 65px;
+    padding-top: 20px;
+}
+.mota{
+    font-size: 20px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 650px;
+}
+.box{
+    width: 95%;
+    margin: 0 auto;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    color: black;
+    background-color: lightgray;
+    flex: 1;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 2px solid #fff;
+    border-radius: 0.1%;
+    position: relative;
+}
+.box2{
+    color: black;
+    background-color: lightgrey;
+    flex: 1;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.box3{
+    color: black;
+    background-color: lightgrey;
+    flex: 1;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.box4{
+    color: black;
+    background-color: lightgrey;
+    flex: 1;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.box5{
+    color: black;
+    background-color: lightgrey;
+    flex: 1;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.box6{
+    color: black;
+    background-color: lightgrey;
+    flex: 1;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: lightgray ;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    color: grey;
+}
+.box1:hover > .layer{
+    display: flex;
+}
+.box2:hover > .layer{
+    display: flex;
+}
+.box3:hover > .layer{
+    display: flex;
+}
+.box4:hover > .layer{
+    display: flex;
+}
+.box5:hover > .layer{
+    display: flex;
+}
+.box6:hover > .layer{
+    display: flex;
+}
+.essay{
+    width: 94.9%;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.van{
+    color: #000;
+    font-size: 32px;
+    padding: 250px;
+    font-family: italic;
+}
+.tieudiem{
+    padding-top: 85px;
+    color: #000;
+}
+.baanh{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+}
+.anh{
+    width: 97.5%;
+    height: 410px;
+    padding-left: 38px;
+}
+.congviec{
+    padding-top: 100px;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;
+}
+.head3{
+    color: grey;
+}
+.head2{
+    color: black;
+    padding-top: 40px;
+}
+.dess{
+    color: black;
+    font-size: 35px;
+    padding-top: 40px;
+}
+.daugach{
+    font-size: 50px;
+    color: black;
+}
+.in4{
+    color: grey;
+    padding-top: 80px;
+    font-size: 19px;
+}
+.adver{
+    padding-top: 100px;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px; 
+}
+.why{
+    color: grey;
+}
+.we{
+    color: black;
+    padding-top: 50px;
+}
+.xedap{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+}
+.anhxe{
+    height: 422px;
+    width: 100%;
+}
+.dongho{
+    width: 100%;
+    display: flex;
+    padding-top: 130px;
+}
+.dell{
+    width: 100%;
+    height: 410px;
+}
+.howwe{
+    color: grey;
+    font-size: 20px;
+}
+.hybrid{
+    color: black;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.consulting{
+    color: #000;
+    padding-top: 30px;
+    font-size: 28px;
+}
+.venture{
+    color: black;
+    padding-top: 10px;
+    font-size: 28px;
+}
+.self{
+    color: black;
+    padding-top: 10px;
+    font-size: 28px;
+}
+.how{
+    padding-top: 100px;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px; 
+}
+.baidea{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.work{
+    padding-top: 100px;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;  
+}
+.wework{
+    color: grey;
+    font-size: 20px;   
+}
+.dynamic{
+    color: black;
+    padding-top: 40px;
+    font-size: 38px;
+}
+.macbook{
+    width: 100%;
+    height: 400px;
+}
+.find{
+    padding-top: 100px;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;  
+}
+.fuel{
+    color: grey;
+    font-size: 20px;  
+}
+.creative{
+    color: black;
+    padding-top: 40px;
+    font-size: 38px;
+}
+.in4cuoi{
+    color: grey;
+    padding-top: 80px;
+    font-size: 19px;
+    padding-bottom: 70px;
+}
+.ending{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.email{
+    color: black;
+    padding: 5px 10px;
+}
+.sc{
+    width: 120px;
+}
+.fc{
+    width: 180px;
+}
+.des{
+    font-size: 17px;
+    color: grey;
+    width: 150px;
+}
+.des1{
+    font-size: 17px;
+    color: grey;
+    width: 54px; 
+}
+.rorang{
+    padding-top: 20px;
+    padding-right: 400px;
+}
+.com{
+    color: grey;
+}
+.com:hover{
+    cursor: pointer;
+    color: white;
+}
+.dienvao{
+    width: 305px;
+}
+.sign{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.signup{
+    border: 3px solid white;
+    padding: 19px;
+    background-color: black;
+}
+.signup:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.cuoicung{
+    padding-left: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.f1{
+    width: 80px;
+    height: 50px;
+}
+.b1{
+    width: 40px;
+    height: 50px;
+}
+.il1{
+    width: 40px;
+    height: 50px;
+}
+.vi1{
+    width: 40px;
+    height: 50px;
+}
+.tt1{
+    width: 40px;
+    height: 50px;
+}
+.mail1{
+    width: 40px;
+    height: 50px;
+}
+.pp{
+    background-color: black;
+    padding-bottom: 80px;
+    height: 50px;
+    padding-left: 45px;
+}
+.privacy{
+    color: grey;
+    width: 130px ;
+}
+.privacy:hover{
+    color: white;
+    cursor: pointer;
+}
+.return > .img{
+    color: black;
+}
+.arrow{
+    padding-left: 400px;
+    height: 40px;
+}
+.chu{
+    color: grey;
+    padding-left: 350px;
+    padding-bottom: 50px;
+}
